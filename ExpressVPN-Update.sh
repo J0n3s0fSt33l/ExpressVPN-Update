@@ -34,3 +34,5 @@ else
 	echo "Installing update"
 	rm xvp.txt && dpkg -i "$DEB_FILE" || echo "Update installation NOT successful."
 fi
+
+read -rsp "Press any key to continue..."
